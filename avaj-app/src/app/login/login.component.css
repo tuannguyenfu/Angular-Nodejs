@@ -1,0 +1,56 @@
+.container-fluid {
+  background-color: #f2f2f2;
+  height: 100vh;
+}
+
+.card {
+  width: 400px;
+  border: none;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group label {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.btn {
+  background-color: #2196F3;
+  border-color: #2196F3;
+}
+
+.btn:hover {
+  background-color: #0d8bf2;
+  border-color: #0d8bf2;
+}
+
+/* Center the card */
+.card {
+  margin: 0 auto;
+}
+
+/* Center the form vertically */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.btn {
+  width: 110px; /* set the width of the button */
+  margin-top: -15px;
+}
+
+.text-center {
+  display: flex; /* use flexbox to center the button */
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px; /* add margin from the form */
+}
